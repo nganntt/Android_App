@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="container" type="id">container</item>
+    <item name="textView1" type="id">textView</item>
+    <item name="textView" type="id">textView</item>
+</resources>

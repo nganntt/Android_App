@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Well come to Fragment3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView"
+        android:text="Go To Fragment1"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button1"
+        android:text="Go To Fragment2"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="15dp"
+        android:text="Go To Fragment3"
+        android:id="@+id/button3"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button3"
+        android:layout_marginTop="15dp"
+        android:text="Go To Activity"
+        android:id="@+id/button4"/>
+
+
+
+</RelativeLayout>

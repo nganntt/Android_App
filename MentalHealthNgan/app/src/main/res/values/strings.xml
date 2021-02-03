@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MentalHealthNgan</string>
+    <string name="auth_failed">Authentication is Failed</string>
+    <string name="auth_success">Authentication is Success</string>
+</resources>
